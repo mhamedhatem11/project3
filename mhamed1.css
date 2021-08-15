@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 3s;
+}
+.con1{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.fab{
+    font-size: 30px;
+    color:blue;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.fab:hover{
+    color:gray;
+
+}
+@media(max-width: 767px){
+    .con1 .col-text div{
+        width: calc(100% -5px);
+    }
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con-flex{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+.control{
+    display: flex;
+    justify-content: space-around;
+    margin: 35px;
+    margin-bottom: 40px;
+}

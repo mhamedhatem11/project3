@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    width: 400px;
+    height: 450px;
+    background-color: cornflowerblue;
+    margin: 20px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transition: 3s;
+}
+.card{
+    background-color: coral;
+}
+.container3{
+    font-size: 14px;
+}
+@media(max-width: 767px){
+    
+    .container .card  .container3 div{
+        width: calc(100% -5px);
+    }
+}
